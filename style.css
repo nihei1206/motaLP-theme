@@ -1,3 +1,19 @@
+/*
+Theme Name: mota-LP-theme
+Author: nihei tomotaka
+Author URI: https://dellcui.com/
+Theme URL :
+Description: mota-LP-theme
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 7.3.5
+Text Domain: mota-LP-theme
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
 .wrapper {
     display: flex;
     overflow: hidden;
@@ -25,6 +41,7 @@
 .sidebar ul {
     margin: 90px 20px;
     padding: 10px;
+    
 }
 
 .sidebar li {
@@ -35,6 +52,7 @@
 
 .sidebar a {
     text-decoration: none;
+    color: #fff;
 }
 
 .sidebar .maru {
