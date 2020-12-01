@@ -8,7 +8,7 @@
     ?>
     </nav>
     <div class="maru"><a href="https://twitter.com/<?php echo get_option( 'sns_tw' ); ?>"><i class="fab fa-twitter"></i></a></div>
-    <div class="copy">&copy;2020 山形大学VR部</div>
+    <div class="copy">&copy;<?php echo date('Y');?> <?php echo get_option( 'copy' ); ?></div>
 </div>
 <div class="wrapper">
 <div class="side-space"></div>

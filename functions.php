@@ -69,6 +69,24 @@ function theme_customizer_extension($wp_customize) {
     'section'   => 'sns_acount',
     'type'      => 'text',
     ));
+
+        //copyright
+   $wp_customize->add_section( 'copy_right', array(
+    'title'     => 'CopyRight',
+    'priority'  => 2000,
+    ));
+    $wp_customize->add_setting( 'copy', array(
+        'default'   => '',
+        'type'      => 'option',
+        'transport' => 'postMessage',
+    ));
+    $wp_customize->add_control( 'footer_copy_right', array(
+    'settings'  => 'copy',
+    'label'     => 'CopyRight',
+    'description' => '<small>著作権情報</small>',
+    'section'   => 'copy_right',
+    'type'      => 'text',
+    ));
    
    }
    add_action('customize_register', 'theme_customizer_extension');
